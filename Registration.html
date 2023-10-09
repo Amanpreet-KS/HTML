@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=""en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
+    <title>Registration form</title>
+    
+</head>
+<body>
+    <h4>Registration</h4>
+    <form action="Data.html" method="post">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="First Name">First Name:</label>
+        <input type="text" name="First Name" id="First Name" placeholder="First Name"><br>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" name="Last Name" id="Last Name" placeholder="Last Name"><br>
+        Gender: Male <input type="radio" name="gender" id="Male">
+        Female <input type="radio" name="gender" id="Female"><br>
+        <label for="Email Id">Email Id:</label>
+        <input type="Email Id" name="Email Id" id="Email Id" placeholder="Email Id"><br>
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" name="DOB" id="DOB" placeholder="MM/DD/YY"><br>
+        <label for="Phone">Phone:</label>
+        <input type="tel" name="Phone Number" id="Phone Number" placeholder="xxx xxx xxxx"><br>
+        <label for="Address">Address:</label>
+        <textarea name="Address" id="Address" cols="20" rows="3" placeholder="Address"></textarea>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Course Details</legend>
+        <p>Select a course:</p>
+        <select>
+            <option>Java</option>
+            <option>Python</option>
+            <option>Angular</option>
+            <option>React</option>
+            <option>Fullstack</option>
+        </select>
+        <p>Select the type of course: </p>
+        <input type="checkbox" name="Type" id="Type">Full Time<br>
+        <input type="checkbox" name="Type" id="Type">Part Time<br>
+    </fieldset>
+    <input type="submit" name="submit" value="Submit">
+</form>
+</body>

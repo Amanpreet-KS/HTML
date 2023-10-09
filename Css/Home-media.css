@@ -1,0 +1,20 @@
+
+
+
+@media screen and (max-width: 768px){
+    nav ul li {
+        display:inline-block;
+        
+    }
+    .row {
+        flex-direction: column; /* Stack columns vertically */
+    }
+    .column.left {
+        margin: 0;
+    } 
+    
+    
+}
+
+
+
